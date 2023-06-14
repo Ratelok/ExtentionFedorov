@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анти - Фишинг</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js"></script>
+    <script src="check.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Анти-Фишинг</h1>
+    <div class="section">
+        <h2 class="section-title">Доверенные сайты:</h2>
+        <ul class="website-list orig" id="orig"></ul>
+    </div>
+    <div class="section">
+        <h2 class="section-title">Список заблокированных сайтов:</h2>
+        <ul class="website-list blocked" id="website-list"></ul>
+        <button class="button" id="addBlackListButton">Заблокировать сайт</button>
+    </div>
+    <div class="section">
+        <h2 class="section-title">Фишинговые сайты:</h2>
+        <ul class="website-list fish" id="fish"></ul>
+    </div>
+</div>
+</body>
+</html>
